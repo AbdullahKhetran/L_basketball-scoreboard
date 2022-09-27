@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background: rgb(27, 36, 74);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+
+h2 {
+    font-size: 2.8rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin: 5px auto;
+    padding: 0 5px;
+
+    /* border: 1px solid lime; */
+}
+
+
+.scoreboard {
+    background: black;
+    height: 30vh;
+    width: 35vw;
+
+    margin: 5px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+
+    /* border: 1px solid yellow */
+}
+
+
+
+h3 {
+
+    color: rgb(249, 79, 109);
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 6rem;
+    padding-top: 10%;
+
+    /* border: 1px solid red; */
+}
+
+h2 {
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 1rem 0.5rem;
+
+    /* border: 1px solid brown; */
+}
+
+button {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background: rgb(27, 36, 74);
+    border: 1px solid rgb(160, 160, 160);
+
+    color: rgb(161, 161, 161);
+    padding: 0.3rem;
+    font-size: 1.2rem;
+}
